@@ -1,0 +1,83 @@
+body {
+  font-family: Arial;
+  background: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  margin: 0;
+  padding: 20px;
+}
+
+form {
+  background: rgb(0, 0, 0);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-top: 15;
+  margin-bottom: 15px;
+}
+
+#name-label {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#email-label {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#message-label {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 90%;
+  padding: 15px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #666;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: red;
+}
+
+@media (max-width: 500px) {
+  form {
+    padding: 10px;
+  }
+}
+
+.thank-img {
+  max-width: 100%;   
+  height: auto;      
+  margin-bottom: 10px; 
+  border-radius: 5px;  
+}

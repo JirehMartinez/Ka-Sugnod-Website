@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1;
+  color: #fff;
+}
+
+
+main {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;    
+            gap: 40px;              
+            padding: 20px;
+        }
+
+ header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #ffffff6e;
+  text-decoration: none;
+  padding: 5px 2px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.432);
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+}
+        canvas { 
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            background-color: white;
+        }
+
+        section {
+  padding: 120px 20px;
+  text-align: center;
+  background: #ffffff;
+  min-height: 100vh; 
+  border-top: 2px solid #555;
+}
+
+        #YouTube {
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            background-color: white;
+            color: black;
+            padding: 20px; 
+            overflow: auto;
+        }
+
+        .video-info-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            flex-wrap: wrap; /* stack on small screens */
+        }
+
+        iframe, #InfoCanvas {
+            flex: 1 1 400px; /* allow resizing but minimum 400px */
+        }

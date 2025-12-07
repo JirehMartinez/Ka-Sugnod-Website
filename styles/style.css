@@ -1,0 +1,31 @@
+h1 {
+	font-size: 25px;
+}
+
+p {
+	font-family: Tahoma;
+}
+
+.phase1 {
+	color: blue;
+}
+
+
+#phase1 {
+	color: red;
+}
+
+
+p{
+	border: 2px solid #000000;	
+}
+
+div {
+	border: 2px solid #000000;
+	width: 100px;
+}
+
+
+.myWorld {
+	color: red;
+}
