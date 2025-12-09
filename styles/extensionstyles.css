@@ -41,7 +41,7 @@ header {
 .hamburger,
 #menu-toggle {
     position: relative;
-    z-index: 2000; /* Always visible above menu */
+    z-index: 2000;
 }
 
 #menu-toggle {
@@ -94,7 +94,7 @@ header {
 
 /* HERO */
 .hero {
-  background: url('../images/cookingbackground1.jpg') no-repeat center center / cover;
+  background: url('../images/cookingbackground3.jpg') no-repeat center center / cover;
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -399,7 +399,7 @@ section h2 {
 .contact-content {
   text-align: center;
   padding: 30px 20px;
-  background: rgba(0, 0, 0, 0.5); /* subtle overlay so text is readable */
+  background: rgba(0, 0, 0, 0.3); /* subtle overlay so text is readable */
   border-radius: 12px;
 }
 
@@ -427,9 +427,7 @@ img {
 }
 
 
-/* ============================= */
-/* GLOBAL MOBILE FIX */
-/* ============================= */
+/* ====GLOBAL MOBILE FIX==== */
 
 @media (max-width: 992px) {
   body {
@@ -437,9 +435,7 @@ img {
   }
 }
 
-/* ============================= */
-/* HEADER — RESPONSIVE NAV FIX */
-/* ============================= */
+/* ====HEADER — RESPONSIVE NAV FIX==== */
 
 @media (max-width: 768px) {
 
@@ -451,7 +447,7 @@ img {
   }
 }
 
-/* ---------------- MOBILE MENU BEHAVIOR ---------------- */
+/* ====MOBILE MENU BEHAVIOR==== */
 
 @media (max-width: 768px) {
   .hamburger {
@@ -497,9 +493,7 @@ img {
   }
 
 
-/* ============================= */
-/* HERO */
-/* ============================= */
+/* ====HERO==== */
 
 @media (max-width: 480px) {
   .hero {
@@ -521,9 +515,7 @@ img {
   }
 }
 
-/* ============================= */
-/* ABOUT SECTION */
-/* ============================= */
+/* ====ABOUT SECTION==== */
 
 @media (max-width: 768px) {
 
@@ -557,9 +549,7 @@ img {
   }
 }
 
-/* ============================= */
-/* SERVICES */
-/* ============================= */
+/* ====SERVICES==== */
 
 @media (max-width: 768px) {
 
@@ -599,9 +589,7 @@ img {
   }
 }
 
-/* ============================= */
-/* CONTACT */
-/* ============================= */
+/* ====CONTACT==== */
 
 @media (max-width: 768px) {
 
@@ -623,9 +611,7 @@ img {
   }
 }
 
-/* ============================= */
-/* EXTRA SMALL DEVICES */
-/* ============================= */
+/* ====EXTRA SMALL DEVICES==== */
 
 @media (max-width: 375px) {
 
